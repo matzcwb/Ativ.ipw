@@ -1,17 +1,17 @@
-var n1Str = prompt("Digite um Número Inteiro: ");
-var n1 = parseInt(n1Str);
+var x1 = 0;
 
-var n2Str = prompt("Digite um Número Inteiro: ");
-var n2 = parseInt(n2Str);
-
-var n3Str = prompt("Digite um Número Inteiro: ");
-var n3 = parseInt(n3Str);
-
-if (n1 > n2  &&  n3 ) {
-    alert("O maior número informado é " + n1);
-   
+for (var index = 0; index < 3; index++) {
+    var numStr = prompt('Digite o ' + (index + 1) + "º numero ");
+        var aux = parseInt(numStr);
     
-} else {n3 > n2 && n1
-    alert("O maior número informado é " + n3);
-    
+	if(aux >= x1){
+         x1 = aux;
+        }
+	
+  
 }
+alert(x1)
+    
+
+
+   
