@@ -1,12 +1,6 @@
-quant = 0
-var par = 0
-for(i = 1 ;i <= 20; i++) {
-   if (i % 2 == 0){
-       i
-       
-
-   
-
+for (var index = 1; index <= 20; index++){
+    if (index % 2 == 0){
+    alert(index)
     }
 }
-alert(
+    
